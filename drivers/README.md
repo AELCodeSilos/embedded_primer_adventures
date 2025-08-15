@@ -1,8 +1,10 @@
 !!! Important !!!
 
-Just to have a lean project on Git, I have decided not to include the CMSIS and HAL drivers which are part of this directory.
+Just to have a lean project on Git, I have decided not to include the CMSIS repo and HAL drivers repositories, which are part of this directory.
 
-One can include by cloning them from.
+Clone them and set relevants include paths in the CMakeLists.txt in the root folder.
+
+One can include by cloning them from,
 
 CMSIS : https://github.com/STMicroelectronics/cmsis-core/tree/master
 
